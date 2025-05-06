@@ -89,3 +89,4 @@ WHERE image_id IN ('.implode(',', $ids).')
 ;';
     pwg_query($query);
 }
+include USER_COLLEC_PATH . 'include/add_batch_manager_filter.php';
